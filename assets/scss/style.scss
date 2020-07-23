@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prompt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-image: url('/assets/img/DD\ Forest\ Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quote{
+    display:flex;
+    padding: 2em;
+    padding-left: 4rem;
+    position: absolute;
+    top: 25vh;
+    left: 20vw;
+    width: 60vw;
+    height: 40vh;
+    background-color: rgba(179, 133, 36, 0.63);
+    p{
+        font-size: 24px;
+        font-family: 'Great Vibes', cursive;
+        font-weight: 500;
+    }
+    cite{
+        font-family: 'Prompt', sans-serif;
+        font-weight:700;
+        position: absolute;
+        bottom: 1px;
+        right: 5px;
+    }
+    .quoteS{
+        position: absolute;
+        left: -7px;
+        top: -50px;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #474747;
+        transform: rotate(190deg);
+    }
+    .quoteS2{
+        position: absolute;
+        left: -30px;
+        top: -50px;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #7c7c7c;
+        transform: rotate(180deg);
+    }
+
+    img{
+    position: absolute;
+    top: -18vh;
+    left: 40vw;
+    width: 11rem;
+    height: 9rem;
+    background-color: black;
+    border-radius: 100%;
+    border: 2px solid gray;
+    box-shadow: 1px 3px;
+    }
+    span{
+        font-family: 'Prompt', sans-serif;
+        font-size:200px;
+    }
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.459);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    text-align: center;
+    color: #ffd000;
+}
