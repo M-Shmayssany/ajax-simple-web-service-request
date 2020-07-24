@@ -33,11 +33,11 @@
                     
                     img.setAttribute('class', 'img');
                     quote.appendChild(img);
-                    }else{
-                        alert(`Error : ${this.status}`);
                     }
 
-        }
+                }else{
+                        alert(`Error : ${this.status}`);
                 }
+    }
     //call send
     xhr.send();
